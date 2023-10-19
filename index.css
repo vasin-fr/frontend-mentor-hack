@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+}
+section {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+section .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+section .row div img {
+  height: 250px;
+  border-radius: 10px;
+  transition: all 0.2s;
+  box-shadow: 0 5px 10px rgba(158, 158, 158, 0.3);
+}
+section .row div img:hover {
+  height: 255px;
+  transition: all 0.2s;
+  box-shadow: 0 10px 20px rgba(167, 167, 167, 0.3);
+}
